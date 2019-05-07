@@ -1,7 +1,7 @@
 'use strict';
 
 const telebot = require('telebot'),
-    bot = new telebot('384742340:AAETgAQr48DrdczySb6gOCI0dmwHQeuKaM8');
+    bot = new telebot(process.env.BOT_TOKEN);
 
 bot.start();
 
